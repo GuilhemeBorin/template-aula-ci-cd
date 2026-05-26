@@ -3,7 +3,7 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - main
+      - master
 
 defaults:
   tools:
@@ -36,4 +36,3 @@ jobs:
     params:
       platform: ios
       profile: preview
-      
